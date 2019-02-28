@@ -1,0 +1,194 @@
+/* =============== Navigation Styles =============== */
+
+
+
+header {
+	background-color: none;
+	transition: background-color ease .3s;
+	text-align: center;
+	padding: 10px 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 20;
+}
+
+header:hover{
+	background-color: rgba(62, 66, 101, .85);
+
+}
+
+header.hover {
+	background-color: rgba(245,165,66, .85);
+}
+
+ul.main-nav{
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.main-nav li{
+	padding: 5px 25px;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+	list-style-type: none;
+}
+
+ul.main-nav li a {
+	color: white;
+	transition: color ease .3s;
+	
+}
+
+ul.main-nav li a:hover{
+	color: #F5A542;
+}
+
+.logo-wrap {
+	background-color: #F5A542;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	transition: background-color ease .3s;
+}
+
+
+
+.logo-wrap img {
+	width: 80px;
+}
+
+.logo-wrap:hover {
+	background-color: rgba(62, 66, 101, 1)
+}
+
+
+
+/* =============== Home Page Styles =============== */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+ h1, h2, h3, li{
+	 letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+}
+
+div.content h2{
+	padding-top: 20px;
+}
+
+div.Testimonials h1{
+	text-align: center;
+	padding: 10px 0 20px 0;
+}
+p{
+	letter-spacing: 5px;
+	font: 20px "Lato", sans-serif;
+	padding: 15px;
+}
+
+h3{
+	text-align:center;"
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+    background-image: url("img/sample.jpg");
+
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img/gus_fried_chicken_fb.0.jpg");
+  min-height: 550px;
+}
+
+.bgimg-3 {
+  background-image: url("img/Gus-106.0.0.jpg");
+  min-height: 600px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+	padding-top: 400px;
+  background-color: lightgrey;
+  color: #000;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+
+
+.parallax { 
+  /* The image used */
+  background-image: url("img/sample.jpg");
+
+  /* Set a specific height */
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buttons-1 {
+        border-radius: 75%;
+        background-color: #C02717;
+        color: #FFAA00;
+        padding: 5px;
+        width: 20%;
+        height: 100%;
+}
+.buttons {
+    text-align: center;
+    background-repeat:repeat;
+    overflow:scroll;
+    width:1650px;
+    height:100px;
+    line-height:2em;
+    padding: 5px;    
+     justify-content: center;
+     font-size: 25px;
+     font: "sans-serif";
+}
